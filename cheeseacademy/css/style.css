@@ -1,0 +1,446 @@
+@charset "utf-8";
+
+html{
+    font-style: 62.5%;/* 16px × 62.5% = 10px*/
+}
+
+body{
+    color: #333333;
+    font-family:"Open Sans",'ヒラギノ角ゴ ProN W3',Hiragino Kaku Gothic ProN,'メイリオ',Meiryo, sans-serif;
+    font-size: 1.6rem;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* ---------------
+
+CSSを適用していく時は、下記テンプレートをコピペして
+波括弧の間に命令を書くようにしましょう！
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓ ここからテンプレート ↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+.nickname{
+
+}
+
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑ ここからテンプレート ↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+---------------*/
+
+/*画面全体の基本設定*/
+
+/*画像を伸縮させるために必要*/
+
+/* --------------
+       header
+-------------- */
+
+.header{
+    background-color: white;
+    border-bottom: solod 1px #c9c9c9;
+}
+
+.header-image{
+    position: relative;
+
+}
+
+/* 画像の中の文字 */
+
+.img-title1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.img-title2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.img-title3{
+    font-size: 1.6rem;
+}
+
+
+/* ------------------------ */
+
+
+.header-sub-img{
+    padding: 50px 0 0 0;
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-title{
+    margin: 0 0 0 48px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------
+       about       
+----------------- */
+
+
+
+
+.About{
+    margin: auto;
+    text-align: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.profile{
+    padding: 80px 0;
+}
+
+.About-title.area-title{
+    margin-bottom: 24px;
+    color: orange;
+    text-align: center;
+    font-weight: bold;
+  }
+
+.profile-wrapper{
+    margin: auto
+    
+}
+  
+.profile__title{
+    margin: 0 0 40px;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.profile__eyecatch{
+    margin: 0 0 24x;
+    line-height: 5;
+
+}
+
+.about-text{
+    line-height: 2;
+    margin: 0 0 20px;
+    
+}
+
+.profile__text{
+    margin: 0 0 40px;
+    line-height: 5;
+    /* text-align: justify; */
+    /* text-align: inter-deograph; */
+}
+
+
+
+
+/* ---------------
+      couse
+---------------- */
+.couse-title1{
+    text-align: center;
+    font-weight: bold;
+    margin: 0 0 40px;
+    color: orange;
+}
+
+.couse-title{
+    text-align: left;
+    font-weight: bold;
+    margin: 0 0 40px;
+}
+
+.couse-text1{
+    line-height: 2.5;
+    margin: 0 0 40px;
+    text-align: center;
+
+}
+
+.couse-text{
+    line-height: 1;
+    margin: 0 0 40px;
+    text-align: center;
+
+}
+
+.couse-flex{
+    display: flex;
+}
+
+.couse-flex-gyaku{
+    flex-direction: row-reverse;
+}
+
+.couse-flex-inner1{
+    width: 50%;
+}
+
+.couse-flex-inner2{
+    width: 50%;
+    text-align: left;
+    text-align: justify;
+    position: static;
+
+}
+
+/* ----------------
+    news
+---------------- */
+
+.wrapper{
+    /* *min-width: 1140px; */
+    margin: auto;
+}
+
+.news__eyecatch{
+    margin: 0 0 24px;
+}
+
+
+
+
+.news__contents{
+    padding: 0 16px;
+}
+
+.news__headding{
+    margin: 0 0 16px;
+    font-weight: bold;
+}
+
+
+.news__title{
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin: 0 0 64px;
+
+}
+
+.news-title{
+    color: orange;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.news-text{
+    line-height: 2;
+}
+
+.news-text2{
+    line-height: 1.75;
+}
+
+.news-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  
+  }
+  
+.news-item{
+   min-width: 33.333%; 
+   width: 33.333%;
+   flex: 0 0 33.333%;
+  }
+
+.btn{
+    display: block;
+    width: 300px;
+    background-color: orange;
+    color:#fff;
+    font-size: 1.8rem;
+    margin: auto;
+    padding: 21px 0;
+    text-align: center;
+}
+
+
+.news-btn{
+    padding: 80px 0;
+}
+
+
+/* ---------------
+       access
+---------------- */
+.Access{
+    margin: auto;
+}
+
+.access-title{
+    text-align: center;
+    font-weight: bold;
+    color: orange;
+    padding: 10% 0 5%;
+}
+
+
+
+.access-text{
+    display: flex;
+    margin: 15px;
+}
+
+.access-text-sub-title{
+    padding: 0 0 10%;
+}
+
+.access-1{
+    width: 560px;
+    margin: auto;
+}
+
+
+
+
+/* ---------------
+      contact
+---------------- */
+
+
+.Contact{
+    margin: auto;
+}
+
+.contact-title{
+    font-style: 2.4rem;
+    text-align: center;
+    font-weight: bold;
+    color: orange;
+    margin: 0 0 64px;  
+    line-height: 2;
+}
+
+.contact-text{
+    padding: 0 0 40px;
+    line-height: 2;
+    text-align: center;
+}
+
+
+/* ---------------
+     form      
+----------------- */
+
+.contact{
+    padding: 80px 0 64px;
+}
+
+.form-wrapper{
+    width: 560px;
+    margin: auto;
+}
+
+.form-inner{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 40px;
+}
+
+.form-title{
+    width: 152px;
+    margin: 0 20px 0 0;
+    padding: 8px 0 0 0;
+    font-weight: bold;
+    text-align: right;
+    
+}
+
+.form-title.check-radio{
+    padding: 0;
+}
+
+.form-item{
+    width: 380px;
+    margin: 0 0 32px;
+}
+
+.form-parts{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    border: solid 1px #c9c9c9;
+    font-size: 1.6rem;
+}
+
+.form-label{
+    margin: 0 16px 0 0;
+    font-size: 1.4rem;
+}
+
+input[type*="radio"]{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px;
+    height: 16px;
+    margin: 0 10px 0 0 ;
+    border: solid 1px #a0a0a0;
+    border-radius: 50%;
+    vertical-align: -2px;
+}
+
+input[type*="radio"]:checked{
+    background-color: #a0a0a0;
+}
+
+.btn-submit{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+}
+
+
+
+/* ----------------
+    footer
+----------------- */
+
+.footer{
+    padding: 24px 0;
+    background-color: #707070;
+}
+
+.copyrights{
+    color: #fff;
+    font-size: 1.2px;
+}
